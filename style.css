@@ -1,0 +1,240 @@
+body {
+  font-family: nunito;
+  background-color: #101010;
+  line-height: 1.6;
+}
+.info4 p {
+  font-size: 17px;
+  margin: 0 7px;
+}
+ #mc, #mi {
+          display:none;
+ }
+.header {
+  text-align: left;
+  color: white;
+  margin:0 15px;
+  padding:58px 0;
+  font-weight: bold;
+}
+#scrollButton {
+  color: white;
+  with:50px;
+}
+.header button, .bbtn{
+  border-radius: 25px;
+  padding: 14px 18px;
+  font-weight: bold;
+  margin: 0 15px 0 0;
+  font-family: nunito;
+  border:none;
+}
+mark {
+  background: transparent;
+  text-decoration: underline;
+  color: white;
+  text-decoration-color: #276FFD;
+}
+.header img{
+  margin: 0 -15px;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 95%;
+}
+@keyframes blink {
+  0%   { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+.stars-bg__star {
+  opacity: 0;
+  animation: blink 3s infinite;
+}
+.stars-bg__blink-2 {
+  animation-delay: 1s;
+}
+.stars-bg__blink-3 {
+  animation-delay: 2s;
+}
+.mymenu {
+  background-color: black;
+  position: fixed;
+  top:0;
+  left:-1%;
+  right: 0px;
+  padding: 3px 15px;
+  z-index: 1000;
+  box-shadow:0 -0.4px 2.7px 1.5px #151515 ;
+}
+.nav-top {
+  float: left;
+  font-weight: bold;
+  letter-spacing: 2.6px;
+  margin: 10px;
+  color: #fff;
+  
+}
+#scrollButton svg {
+  margin-top:2%;
+} 
+.tagline {
+  line-height: 1.5;
+  padding: 20px 0;
+}
+.word {
+  font-size: 23px;
+  font-weight: bold;
+  display: inline;
+}
+
+
+.info5 {
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+.moreinfo {
+  border-top:none;
+  border-left:none;
+  border-right: 6px solid #221133;
+  border-bottom: 6px solid #221133;
+  padding: 16px 39px;
+  display: inline;
+  font-family: Nunito;
+  font-weight: bold;
+  background: #f7390d;
+  border-radius: 27px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.info6 {
+  color: white;
+  line-height: 1.5;
+  background: #141215;
+  padding:63px 15px;
+  text-align: center;
+  margin:0 -10px;
+}
+.info6 button{
+  color:white;
+  border-top:none;
+  border-left:none;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+.anim4 {
+  opacity: 0;
+}
+.fname {
+  letter-spacing: 2.6px;
+  font-size: 18px;
+}
+
+#scrollButton {
+  background-color: transparent;
+  border: none;
+  fill: black;
+  margin-top: 5px;
+  font-size: 20px;
+  float: right;
+}
+.projectinfo {
+  border-radius: 15px;
+  display:flex;
+  margin: 0 auto;
+  width: 95%;
+}
+.projectcontainer {
+  border-radius: 20px;
+  padding: 20px 30px;
+  background-color: #181923;
+  text-align: left;
+  margin: 20px 0;
+}
+.linfo {
+  margin: 0 20px;
+}
+footer {
+  text-align: center;
+  padding: 40px 25px;
+}
+#mi {
+  position: fixed;
+  top:65px;
+  background-color: #232120;
+  width: 95%;
+  height: 300px;
+  color: white;
+  border-radius: 15px;
+  z-index: 900;
+  padding: 45px 0;
+}
+#mi a {
+  color: white;
+  display: block;
+  line-height:3;
+  border-bottom: 1px solid white;
+  width: 80%;
+  border-radius: 1px;
+  
+}
+    #footer a {
+      color: white;
+      padding: 15px 20px;
+      background: #202020;
+      margin: 30px 6px;
+      border-radius: 39px;
+    }
+  .msgme input, .msgme textarea {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 79%;
+    margin: 10px 0;
+    float: left;
+    color: white;
+    background-color: #181923;
+    outline: none;
+    font-family: Arial;
+  }
+#message {
+  height: 200px;
+}
+marquee {
+  
+}
+
+.marquee-image {
+  width: 300px;
+}
+
+
+.details {
+  border: 1px solid #c5c5c5;
+  margin: 25px auto;
+  
+}
+     .category-grid {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 25px;
+     }
+     
+     .category-item {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     text-align: left;
+     width: 80%;
+     border-radius: 10px;
+     text-decoration: none;
+     padding:15px 13px;
+     font-weight: 600;
+     }
+     
